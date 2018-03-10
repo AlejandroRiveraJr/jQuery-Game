@@ -1,0 +1,33 @@
+.crystals{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.crystal{
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s;
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    transform: translate(5px,80px);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+}
+
+.images{
+    width: 50px;
+
+}
+
+html { 
+    background: url(http://deskbg.com/s3/wpp/29/29399/dragon-ball-z-small-planet-desktop-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
